@@ -1,0 +1,9 @@
+_site*
+.sass-cache
+.jekyll-metadata
+*backup/
+.DS_Store
+vendor/
+.bundle/
+_posts
+attached

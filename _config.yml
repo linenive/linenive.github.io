@@ -1,0 +1,48 @@
+title: 잔잔이의 블로그
+description: 나의 게임 이야기
+author: 잔잔이
+github: https://github.com/
+about: 게임을 사랑하는 블로거
+disqus_shortname: stackproblems
+google_analytics: UA-XXXXXXXX-Y
+
+enableTags: true
+tagarray: []
+
+collections:
+  project:
+    output: true
+    permalink: /project/:path/
+
+social:
+  - icon: fa-facebook
+    link: "https://www.facebook.com/"
+  - icon: fa-question-circle
+    link: "https://www.naver.com/"
+
+share:
+  twitter_username: github.io
+  fb_appid: 1749788565247320
+
+urls:
+  - text: 블로그 소개
+    url: /about/
+  - text: 스팀 게임 탐방
+    url: /projects/
+
+url: "https://linenive.github.io"
+baseurl: ""
+paginate: 20
+per_page: 20
+paginate_path: "/page/:num/"
+markdown: kramdown
+plugins:
+  - jekyll-paginate
+  - jekyll-gist
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: ["development"]
